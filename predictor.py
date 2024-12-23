@@ -143,7 +143,7 @@ class PredictionAPI:
             return jsonify({
                 'error': 'Internal server error'
             }), 500
-            
+
     def run(self) -> None:
         """Start the Flask application."""
         self.app.run(

@@ -9,7 +9,7 @@ DEFAULT_CONFIG = {
         'categories_path': 'data/amazon_categories.csv'
     },
     'thresholds': {
-        'min_price': 0,
+        'min_price': 0.0,
         'high_rating': 4.5,
         'high_item_count': 10000,
         'high_volume': 1.06875835e+07

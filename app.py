@@ -167,8 +167,8 @@ def make_prediction(data: Dict) -> Optional[Dict]:
         return None
 
 def main():
-    st.title("Amazon Category Predictor")
-    st.write("Predict Amazon's presence in product categories")
+    st.title("Competition Predictor")
+    st.write("Predict competitor's presence in product categories")
 
     # Docker image configuration
     with st.sidebar:
