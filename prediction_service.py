@@ -1,6 +1,4 @@
 """
-Amazon Product Category Prediction Service.
-
 A Flask-based REST API service that predicts whether a product category
 contains Amazon-owned products using a pre-trained XGBoost model.
 """
@@ -160,7 +158,7 @@ def main():
         config = ModelConfig()
         service = PredictionAPI(config)
         service.run()
-        
+
     except Exception as e:
         print(f"Failed to start service: {str(e)}")
         raise
