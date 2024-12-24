@@ -8,6 +8,7 @@ competition_analysis/
 competition.ipynb
 test_predictor.py
 model_v1.bin
+.DS_Store
 
 # C extensions
 *.so
